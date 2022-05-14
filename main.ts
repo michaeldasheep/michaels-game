@@ -1,4 +1,5 @@
-tiles.setCurrentTilemap(tilemap`yesss`)
+tiles.setCurrentTilemap(tilemap`tecnique1`)
 let sheepy = sprites.create(assets.image`sheepy`, SpriteKind.Player)
+tiles.placeOnTile(sheepy, tiles.getTileLocation(27, 28))
 controller.moveSprite(sheepy)
 scene.cameraFollowSprite(sheepy)
